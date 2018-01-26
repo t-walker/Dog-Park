@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 import ParkList from './ParkList';
 
@@ -17,15 +18,16 @@ class ParkListing extends Component {
 
   populateParks() {
     // Mock data until there's a live source.
-    this.setState({
-      parks: [
-        {id: 1, name: "Petrovitsky Park", location: {city: "Renton", state: "Washington", country: "United States"}},
-        {id: 2, name: "Maplewood Park", location: {city: "Renton", state: "Washington", country: "United States"}},
-        {id: 3, name: "Marymoore Park", location: {city: "Redmond", state: "Washington", country: "United States"}},
-        {id: 4, name: "Wilderness Peak", location: {city: "Renton", state: "Washington", country: "United States"}},
-        {id: 5, name: "Mirrormont Park", location: {city: "Issaquah", state: "Washington", country: "United States"}},
-      ]
-    });
+    axios.get('/api/v1/parks')
+      .then((response) => {
+        this.setState({
+          parks: response.data.parks
+        });
+        console.log(this.state.parks);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }
 
   renderParks() {

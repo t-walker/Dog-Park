@@ -1,9 +1,3 @@
-/**
- *
- * Environment Config
- *
- */
-
 const env = {
   production: {
     name: 'production',
@@ -18,4 +12,5 @@ const env = {
     port: 4000
   }
 };
+
 export default env[process.env.NODE_ENV];
