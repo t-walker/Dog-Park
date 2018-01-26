@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Petrovitsky Park", 
+        "description": "",
+        "location": 
+        {
+            "city": "Renton", 
+            "state": "Washington",
+            "country": "United States"
+        },
+        "created_at": "2012-04-23T18:25:43.511Z",
+        "updated_at": "2012-04-23T18:25:43.511Z"
+    },
+    {
+        "name": "Maplewood Park",
+        "description": "",
+        "location": 
+        {
+            "city": "Renton", 
+            "state": "Washington", 
+            "country": "United States"
+        },
+        "created_at": "2012-04-23T18:25:43.511Z",
+        "updated_at": "2012-04-23T18:25:43.511Z"
+    },
+    {
+        "name": "Marymoore Park", 
+        "description": "",
+        "location": 
+        {
+            "city": "Redmond", 
+            "state": "Washington", 
+            "country": "United States"
+        },
+        "created_at": "2012-04-23T18:25:43.511Z",
+        "updated_at": "2012-04-23T18:25:43.511Z"
+    },
+    {
+        "name": "Wilderness Peak", 
+        "description": "",
+        "location": 
+        {
+            "city": "Renton", 
+            "state": "Washington", 
+            "country": "United States"
+        },
+        "created_at": "2012-04-23T18:25:43.511Z",
+        "updated_at": "2012-04-23T18:25:43.511Z"
+    },
+    {
+        "name": "Mirrormont Park", 
+        "description": "",
+        "location": 
+        {
+            "city": "Issaquah", 
+            "state": "Washington", 
+            "country": "United States"
+        },
+        "created_at": "2012-04-23T18:25:43.511Z",
+        "updated_at": "2012-04-23T18:25:43.511Z"
+    }
+]
